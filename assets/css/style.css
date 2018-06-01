@@ -1,0 +1,81 @@
+/* General */
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-image: url("../images/what-the-hex.png");
+}
+
+/* Navbar update to styling */
+
+header {
+    border-bottom: solid #cccccc 2px;
+}
+
+#main-logo {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;   
+}
+
+.navbar-nav{
+    flex-direction: row;
+}
+
+li{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Update to main content boxes */
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #dddddd;
+}
+
+/* Update button background colour */
+.btn-primary{
+    background-color: #cccccc;
+    color: black;
+    border: #ffffff solid 0px;
+}
+
+/* Update to image overlays in portfolio page */
+
+.card h4{
+    background-color: #4aaaa5 !important;
+    color: white;
+    text-align: center; 
+    position: absolute;
+    bottom: 10%;
+    left:0;
+    right:0%;
+    padding:10px;
+}
+    
+/* Footer updates to styling */
+
+.footer {
+    padding-top: 30px;
+    border-top: #4aaaa5 4px solid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
